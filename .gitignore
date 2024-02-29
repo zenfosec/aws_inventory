@@ -1,0 +1,28 @@
+# venv
+env/
+
+# Log files
+./aws_inventory.log
+
+# Report files
+./aws_inventory_*.csv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor-specific files
+.vscode/
+*.pyc
+
+# Environment variables file
+.env
+
+# macOS
+.DS_Store
+
+# Compiled Python files
+*.pyc
+__pycache__/

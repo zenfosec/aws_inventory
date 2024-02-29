@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "aws-inventory"
+version = "0.1.0"
+description = "Pulls AWS inventory and writes to csv"
+authors = ["zenfosec <zenfosec[at]gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.34.39"
+kubernetes = "^29.0.0"
+configparser = "^6.0.0"
+
+[tool.poetry.group.dev.dependencies]
+python = "^3.10"
+boto3 = "^1.34.39"
+kubernetes = "^29.0.0"
+configparser = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
