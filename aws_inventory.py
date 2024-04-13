@@ -45,7 +45,7 @@ pod_count = 0
 # Get all accounts, regions, and profiles
 session = boto3.Session()
 credentials = session.available_profiles
-unused_regions = ['af-south-1', 'ap-east-1', 'ap-south-2', 'ap-southeast-3', 'ap-southeast-4', 'ca-west-1', 'eu-central-2', 'eu-south-1', 'eu-south-2', 'il-central-1', 'me-central-1', 'me-south-1']
+unused_regions = ['us-west-2', 'af-south-1', 'ap-east-1', 'ap-south-2', , 'ca-west-1', 'eu-central-2']
 regions = [region for region in session.get_available_regions('ec2') if region not in unused_regions]
 
 # Initialize csv file
